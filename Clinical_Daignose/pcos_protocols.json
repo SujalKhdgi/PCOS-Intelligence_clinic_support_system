@@ -1,0 +1,160 @@
+[
+  {
+    "phenotype_id": "insulin_resistant",
+    "name": "Metabolic / Insulin-Resistant PCOS",
+    "clinical_goal": "Stabilize blood glucose and lower HOMA-IR index.",
+    "dietary_principles": [
+      "Low Glycemic Index (GI) focus.",
+      "High fiber to blunt insulin spikes."
+    ],
+    "ingredient_rules": {
+      "allowed_and_prioritized": [
+        "Leafy greens (Spinach, Kale)",
+        "Cruciferous vegetables (Broccoli, Cauliflower)",
+        "Legumes (Chickpeas, Lentils)",
+        "Healthy Fats (Avocado, Olive Oil)",
+        "Lean Protein (Chicken, Fish, Eggs)",
+        "Berries",
+        "Apple Cider Vinegar"
+      ],
+      "forbidden_or_limit": [
+        "Refined sugar",
+        "White flour (Maida, Bread)",
+        "White rice",
+        "Fruit juices",
+        "Tropical fruits (Mango, Pineapple)"
+      ]
+    },
+    "cooking_methods": {
+      "preferred": ["Baking", "Grilling", "Steaming"],
+      "avoid": ["Deep frying", "Battered coatings"]
+    },
+    "meal_timing_rules": [
+      "Savory breakfast mandatory.",
+      "Eat veggies first, then carbs."
+    ],
+    "exercise_rules": {
+      "focus": "Muscle Building (Glucose Disposal)",
+      "best_types": ["Resistance Training (Weights)", "Walking after meals", "Short HIIT"],
+      "avoid": ["Excessive steady-state cardio (long running)"],
+      "frequency_goal": "3-4 days strength training per week.",
+      "specific_benefit": "Muscle tissue absorbs blood sugar better than any medicine."
+    }
+  },
+  {
+    "phenotype_id": "inflammatory",
+    "name": "Inflammatory / Lean PCOS",
+    "clinical_goal": "Reduce systemic inflammation (CRP) and repair gut lining.",
+    "dietary_principles": [
+      "Remove immune triggers.",
+      "Focus on gut microbiome diversity."
+    ],
+    "ingredient_rules": {
+      "allowed_and_prioritized": [
+        "Fatty Fish (Salmon, Mackerel)",
+        "Root vegetables (Sweet Potato, Carrots)",
+        "Turmeric",
+        "Ginger",
+        "Bone Broth",
+        "Fermented foods (Kimchi)"
+      ],
+      "forbidden_or_limit": [
+        "Gluten (Wheat)",
+        "Dairy",
+        "Seed Oils (Soybean, Sunflower)",
+        "Processed meats",
+        "Alcohol"
+      ]
+    },
+    "cooking_methods": {
+      "preferred": ["Slow cooking", "Poaching", "Soups/Stews"],
+      "avoid": ["Charring/Burning food", "Deep frying"]
+    },
+    "meal_timing_rules": [
+      "No late-night eating.",
+      "Chew food thoroughly."
+    ],
+    "exercise_rules": {
+      "focus": "Circulation & Lymphatic Drainage",
+      "best_types": ["Swimming", "Pilates", "Cycling", "Vinyasa Yoga"],
+      "avoid": ["Over-training (Two-a-days)", "CrossFit burnout"],
+      "frequency_goal": "Daily moderate movement.",
+      "specific_benefit": "Moderate movement lowers inflammation; intense exercise spikes it."
+    }
+  },
+  {
+    "phenotype_id": "adrenal",
+    "name": "Adrenal / Stress-Driven PCOS",
+    "clinical_goal": "Regulate cortisol rhythm and prevent hypoglycemia.",
+    "dietary_principles": [
+      "Prevent blood sugar crashes.",
+      "Support nervous system recovery."
+    ],
+    "ingredient_rules": {
+      "allowed_and_prioritized": [
+        "Slow carbs (Oats, Sweet Potato)",
+        "Magnesium-rich foods (Pumpkin seeds, Spinach)",
+        "Sea Salt",
+        "Vitamin C foods"
+      ],
+      "forbidden_or_limit": [
+        "Caffeine on empty stomach",
+        "Fasting > 12 hours",
+        "Artificial sweeteners"
+      ]
+    },
+    "cooking_methods": {
+      "preferred": ["Roasting", "Warm cooked meals"],
+      "avoid": ["Raw cold salads (hard to digest)"]
+    },
+    "meal_timing_rules": [
+      "Breakfast within 30 mins of waking.",
+      "Carbs at dinner for sleep."
+    ],
+    "exercise_rules": {
+      "focus": "Restorative Movement",
+      "best_types": ["Slow Weight Training", "Hatha Yoga", "Nature Walking", "Tai Chi"],
+      "avoid": ["HIIT", "Spin classes", "Heavy sprinting"],
+      "frequency_goal": "Keep heart rate moderate (Zone 2).",
+      "specific_benefit": "Prevent cortisol spikes that trigger adrenal androgens."
+    }
+  },
+  {
+    "phenotype_id": "hyperandrogenic",
+    "name": "Hyperandrogenic PCOS",
+    "clinical_goal": "Increase SHBG levels and block androgen receptors.",
+    "dietary_principles": [
+      "Hormone Detox.",
+      "SHBG Support."
+    ],
+    "ingredient_rules": {
+      "allowed_and_prioritized": [
+        "Zinc-rich foods (Pumpkin seeds)",
+        "Flaxseeds",
+        "Soy (Edamame)",
+        "Spearmint Tea",
+        "Cruciferous veg"
+      ],
+      "forbidden_or_limit": [
+        "Dairy (Growth hormones)",
+        "High sugar",
+        "Trans fats"
+      ]
+    },
+    "cooking_methods": {
+      "preferred": ["Steaming", "Sautéing"],
+      "avoid": ["Plastic containers for hot food"]
+    },
+    "meal_timing_rules": [
+      "Regular balanced meals.",
+      "High hydration."
+    ],
+    "exercise_rules": {
+      "focus": "Metabolic Conditioning",
+      "best_types": ["Circuit Training", "Power Yoga", "Hiking"],
+      "avoid": ["Sedentary lifestyle"],
+      "frequency_goal": "Consistent daily activity.",
+      "specific_benefit": "Sweat helps eliminate toxins; activity boosts SHBG."
+    }
+  }
+]
