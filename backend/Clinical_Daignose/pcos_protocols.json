@@ -1,0 +1,78 @@
+[
+  {
+    "phenotype_id": "insulin_resistant",
+    "name": "Metabolic / Insulin-Resistant PCOS",
+    "clinical_goal": "Stabilize blood glucose and lower HOMA-IR index.",
+    "dietary_focus": "Low Glycemic Index (GI), High Fiber, Complex Carbs, High Protein",
+    "lifestyle_avoids": [
+      "Sleep deprivation (<7 hrs)",
+      "Eating late at night (stops fat burning)",
+      "Skipping breakfast (spikes cortisol)"
+    ],
+    "supplement_rules": {
+      "core_stack": ["Myo-Inositol (40:1 ratio)", "Vitamin D3 + K2", "Magnesium Glycinate"],
+      "specific_benefit": "Inositol mimics insulin signaling, helping your body use sugar for energy instead of storing it as fat."
+    },
+    "exercise_rules": {
+      "focus": "Muscle Building (Glucose Disposal)",
+      "specific_benefit": "Building muscle creates a 'sink' for excess blood sugar."
+    }
+  },
+  {
+    "phenotype_id": "inflammatory",
+    "name": "Inflammatory / Lean PCOS",
+    "clinical_goal": "Reduce systemic inflammation (CRP) and repair gut lining.",
+    "dietary_focus": "Anti-inflammatory, Antioxidant-rich, Gut-friendly, Omega-3 rich",
+    "lifestyle_avoids": [
+      "High stress environments",
+      "Plastic containers (BPA mimics estrogen)",
+      "Processed seed oils (Canola/Sunflower)"
+    ],
+    "supplement_rules": {
+      "core_stack": ["Omega-3 Fish Oil", "N-Acetyl Cysteine (NAC)", "Zinc"],
+      "specific_benefit": "NAC serves as a powerful antioxidant to lower CRP (inflammation markers) and improve egg quality."
+    },
+    "exercise_rules": {
+      "focus": "Circulation & Lymphatic Drainage",
+      "specific_benefit": "Gentle movement flushes out inflammatory toxins without stressing the body."
+    }
+  },
+  {
+    "phenotype_id": "adrenal",
+    "name": "Adrenal / Stress-Driven PCOS",
+    "clinical_goal": "Regulate cortisol rhythm and prevent hypoglycemia.",
+    "dietary_focus": "Blood sugar balance, Magnesium-rich, Warm cooked foods",
+    "lifestyle_avoids": [
+      "HIIT Cardio (spikes cortisol)",
+      "Fasting > 12 hours (causes sugar crashes)",
+      "Caffeine on empty stomach"
+    ],
+    "supplement_rules": {
+      "core_stack": ["Magnesium Bisglycinate (Night)", "Ashwagandha (Caution)", "Vitamin C"],
+      "specific_benefit": "Magnesium calms the nervous system and lowers cortisol, which is the root driver of this phenotype."
+    },
+    "exercise_rules": {
+      "focus": "Restorative Movement & Nervous System Regulation",
+      "specific_benefit": "Slow, deliberate movement builds strength without triggering the 'Fight or Flight' response."
+    }
+  },
+  {
+    "phenotype_id": "hyperandrogenic",
+    "name": "Hyperandrogenic PCOS",
+    "clinical_goal": "Increase SHBG levels and block androgen receptors.",
+    "dietary_focus": "Zinc-rich, Hormone-balancing, Liver detox support",
+    "lifestyle_avoids": [
+      "Dairy (Growth hormones mimic androgens)",
+      "Sugar spikes (Insulin triggers Testosterone)",
+      "Plastic water bottles"
+    ],
+    "supplement_rules": {
+      "core_stack": ["Zinc", "Saw Palmetto", "Spearmint Tea Capsules"],
+      "specific_benefit": "Zinc inhibits 5-alpha-reductase, the enzyme that turns Testosterone into DHT (which causes acne and hair loss)."
+    },
+    "exercise_rules": {
+      "focus": "Metabolic Conditioning & Detox",
+      "specific_benefit": "Consistent activity helps the liver flush out excess hormones."
+    }
+  }
+]

@@ -1,0 +1,13 @@
+<h2>PCOS Diagnostic Form</h2>
+
+{% if form.errors %}
+    <div style="color: red; margin-bottom: 10px;">
+        <strong>Please fill all required fields.</strong>
+    </div>
+{% endif %}
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Analyze</button>
+</form>

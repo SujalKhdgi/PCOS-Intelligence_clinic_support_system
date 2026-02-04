@@ -1,0 +1,7 @@
+{% if recommendation %}
+    <div class="recommendation">
+        {{ recommendation|safe }}
+    </div>
+{% else %}
+    <p>No personalized recommendation available.</p>
+{% endif %}
