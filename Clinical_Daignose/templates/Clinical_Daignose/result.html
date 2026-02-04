@@ -1,0 +1,28 @@
+<h2>PCOS Diagnostic Result</h2>
+
+{% if result.status == "Review Needed" %}
+    <h3 style="color:red;">⚠ Diagnosis Paused</h3>
+    <p>PCOS diagnosis cannot be completed due to:</p>
+
+    <ul>
+        {% for alert in result.alerts %}
+            <li>{{ alert }}</li>
+        {% endfor %}
+    </ul>
+
+{% else %}
+
+    <p><strong>PCOS Diagnosis:</strong> {{ result.diagnosis }}</p>
+    <p><strong>Phenotype:</strong> {{ result.phenotype }}</p>
+    <p><strong>Lifestyle Protocol:</strong> {{ result.lifestyle_protocol }}</p>
+
+    <h4>Criteria Met</h4>
+    <ul>
+        {% for c in result.criteria_met %}
+            <li>{{ c }}</li>
+        {% empty %}
+            <li>No criteria met</li>
+        {% endfor %}
+    </ul>
+
+{% endif %}
